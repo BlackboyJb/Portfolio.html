@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5185fd851f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.PNG" alt="" class="logo">
+                <ul id="class-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, i'm <span>Goke Odujoko</span></h1>
+                <br>
+                <a href="./images/CV.pdf" download class="btn">Download CV.</a>
+            </div>
+        </div>
+    </div>
+    <!-- <-----------About---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/IMG.JPG " alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm an innovative and motivated individual who is able to work in a busy environment and produce
+                        high
+                        standard of work. Excellent team player and work well using own initiative. Take instruction
+                        well from all levels and build up good working relationships with colleagues. Flexible and work
+                        well under pressure. </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+
+                    </div>
+                    <div class="tab-contents active-skills" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>HTML<br>CSS<br>Javascript</li>
+                            <li><span>Frameworks</span><br>Node.js<br>Angular.js</li>
+                            <li><span>Libraries</span><br>React<br>JQuery<br>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2010-2016</span><br>ANGLICAN COMPREHENSIVE HIGH SCHOOL.<br>High School Diploma
+                            </li>
+                            <li><span>2016-2020</span><br>BOWEN UNIVERSITY.<br>Bachelor of Social Sciences in Political
+                                Science</li>
+                            <li><span>2020-2021</span><br>NEW HORIZON <br>Diploma in Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2019-2020</span><br>Zillow<br>Software Engineer(Intern)</li>
+                            <li><span>2021-2023</span><br>HubSpot<br>Front-End Developer</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------Services-------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Technical Support</h2>
+                        <p> Conduct Regular Monitoring and Reviews of system usage to ensure that employees use
+                            equipment
+                            appropriately.</p>
+
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front-End Development</h2>
+                        <p>Using HTML, Javascript and CSS to optimize user experience on webpages</p>
+
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-headphones"></i>
+                        <h2>Customer Service </h2>
+                        <p>Provide assistance and support about Goods and Services </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- -----------Portfolio--------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Portfolio</h1>
+                <div class="work-list">
+                    <div>
+                        <i class="fa-brands fa-xbox"></i>
+                        <i class="fa-brands fa-playstation"></i>
+                        <h2>Split Landing Page</h2>
+                        <p> Created a Playstation and Xbox split landing Page</p>
+                        <a href="https://blackboyjb.github.io/splitlandingpage.html/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Kanye Quotes Page</h2>
+                        <p> Created a Page you can get Kanye Quotes</p>
+                        <a href="https://blackboyjb.github.io/kanyejokes.html/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Form Wave Animation page</h2>
+                        <p> Created a Form wave Animation page that includes a login format</p>
+                        <a href="https://blackboyjb.github.io/formanimation.html/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-music"></i>
+                        <h2>Music Player</h2>
+                        <p> Created a Music player with some Amazing Playlist</p>
+                        <a href="https://blackboyjb.github.io/Musicplayer.html/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Shoe Website</h2>
+                        <p> Created a simple shoe website using Bootstrap Designs</p>
+                        <a href="https://blackboyjb.github.io/Shoewebsite.html/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Women Clothing Website</h2>
+                        <p> Created a Clothing Website using HTML & CSS</p>
+                        <a href="https://blackboyjb.github.io/clothingwebsite.html/">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -----------contact---------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"> </i>Email:goke.works@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"> </i>Phone No:08091246333</p>
+
+                        <div class="social-icons">
+                            <a href="https://twitter.com/adegoketomisin"><i class="fa-brands fa-twitter"
+                                    style="color: #2f5ba7;"></i></a>
+                            <a href="https://instagram.com/blackboy__jb"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg">Hello</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169 Goks</p>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwRSElVD05Pfwr9-dtoVDBq15j-jhZQapyE-TJXBgqNyBcvs67lUHRLenw5UfdH88pk/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const Msg = document.getElementById('msg')
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        Msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            Msg.innerHTML = ""
+                        }, 5000)
+                        form.reset
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
