@@ -430,3 +430,10 @@ nav .fas {
         display: block;
     }
 }
+
+.header-text .btn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
