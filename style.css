@@ -430,8 +430,12 @@ nav .fas {
         display: block;
     }
 
-    .btn{
-     margin-bottom:90px
+    
+    .header-text .btn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
     }
 
 }
